@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.view{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center ;
+    justify-content: center
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+input{
+    width: 280px;
+    border: 1.5px solid ;
+    padding: 12px;
+    outline: 0;
+}
+.form p{
+    color: red;
+    opacity: 0;
+    font-size: large;
+}
+.input-error{
+    border: 2px solid red ;
+}
+.show-message{
+    opacity: 1 !important;
+}
+
