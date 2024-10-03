@@ -1,0 +1,34 @@
+.contact-menu {
+    background-color: #2A3238;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px ;
+  }
+  
+  .contact-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-menu li {
+    margin: 10px 0;
+  }
+  
+
+  
+  .contact-menu a {
+    color: #FFFFFF99; 
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .contact-menu a:hover,
+  .contact-menu a:focus,
+  .contact-menu a:visited {
+    color: #FFFFFF; 
+  }
+  
