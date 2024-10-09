@@ -1,6 +1,7 @@
 import React from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Navbar from './components/navbar/Navbar';
+import Layout from './components/layout/Layout';
+import NavBar from './components/navbar/NavBar';
 import HomePage from './components/homepage/HomePage';
 import AboutPage from './components/aboutpage/AboutPage';
 import ServicePage from './components/servicepage/ServicePage';
@@ -12,8 +13,8 @@ import ContactUsForm from './components/contactusform/ContactUsForm';
 import NotFoundPage from './components/notfoundpage/NotFoundPage';
 
 const routes = createBrowserRouter([{
-    path: "/", element: <Navbar />, children: [
-      { path: "/", element: <HomePage /> },
+    path: "/", element: <NavBar />, children: [
+      { Index : 'true', element: <HomePage /> },
       { path: "about", element: <AboutPage /> },
       { path: "service", element: <ServicePage /> },
       {
